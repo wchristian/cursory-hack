@@ -68,6 +68,14 @@
 
         ctx.save()
 
+        ctx.beginPath()
+        ctx.moveTo(0,0)
+        ctx.lineTo(128,0)
+        ctx.lineTo(128,128)
+        ctx.lineTo(0,128)
+        ctx.lineTo(0,0)
+        ctx.stroke()
+
         Py = -50
 
         px = 220 - cx
